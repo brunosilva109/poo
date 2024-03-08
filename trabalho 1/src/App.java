@@ -1,7 +1,5 @@
-package src;
-class app {
-    public static void main(String[] args) {
-  
+class App {
+   public static void main(String[] args) {
        MaquinaAgua maq = new MaquinaAgua();
        System.out.println(maq.agua() == 0); // mL
        System.out.println(maq.copos200() == 0);
